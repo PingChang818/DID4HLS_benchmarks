@@ -4,6 +4,8 @@ A. Danalis, G. Marin, C. McCurdy, J. S. Meredith, P. C. Roth, K. Spafford, V. Ti
 The scalable heterogeneous computing (shoc) benchmark suite.
 In Proceedings of the 3rd Workshop on General-Purpose Computation on Graphics Processing Units, 2010
 */
+// arr_nest = [-1, -1, 1, -1, 3, -1, -1, 6, -1, 8]
+// arr_unroll = [32, 16, 3, 8, 14, 32, 8, 15, 8, 3]
 
 #include "sort.h"
 
