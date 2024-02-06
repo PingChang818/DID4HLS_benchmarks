@@ -2,6 +2,8 @@
 // correlation
 //------------------------------------------------------------------------
 // Run DS: dass-baseline correlation false
+// arr_nest = [-1, 0, 0, -1, 3, -1, 5, 6]
+// arr_unroll = [4, 16, 16, 4, 16, 4, 8, 16]
 
 #include "correlation.h"
 
