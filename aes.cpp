@@ -1,9 +1,10 @@
 /*
 *   Byte-oriented AES-256 implementation.
 *   All lookup tables replaced with 'on the fly' calculations.
-*   arr_nest = [-1, -1, -1, -1, -1, -1, -1, -1, -1]
-*   arr_unroll = [31, 6, 12, 15, 15, 15, 3, 2, 2]
 */
+// arr_nest = [-1, -1, -1, -1, -1, -1, -1, -1, -1]
+// arr_unroll = [31, 6, 12, 15, 15, 15, 3, 2, 2]
+
 #include "aes.h"
 
 #define F(x)   (((x)<<1) ^ ((((x)>>7) & 1) * 0x1b))
