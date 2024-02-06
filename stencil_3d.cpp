@@ -4,6 +4,8 @@ Implementation based on algorithm described in:
 K. Datta, M. Murphy, V. Volkov, S. Williams, J. Carter, L. Oliker, D. Patterson, J. Shalf, K. Yelick
 SC 2008
 */
+// arr_nest = [-1, 0, -1, 2, -1, 4, -1, 6]
+// arr_unroll = [8, 8, 8, 8, 8, 8, 8, 8]
 
 #include "stencil.h"
 
