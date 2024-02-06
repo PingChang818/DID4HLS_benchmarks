@@ -2,6 +2,8 @@
 // gramSchmidt
 //------------------------------------------------------------------------
 // https://github.com/chrundle/gram-schmidt/blob/master/gramSchmidt.cpp
+// arr_nest = [-1, -1, -1, 2, 2]
+// arr_unroll = [31, 31, 8, 31, 31]
 
 #include "gramSchmidt.h"
 
